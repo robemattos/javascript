@@ -1,0 +1,52 @@
+JAVASCRIPT
+===========================================
+!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Pagina</title>
+        <meta charset="utf-8>">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <h1>Minha Página</h1>
+    </body>
+</html>
+===========================================
+
+A tag <script> </script> pode ser colocada direto dentro da tag body:
+!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Pagina</title>
+        <meta charset="utf-8>">
+    </head>
+
+    <body>
+    	<script>
+		alert("meu primeiro js");
+	</script>
+        <h1>Minha Página</h1>
+    </body>
+
+</html>
+
+Quanto na tag <head></head>:
+!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Pagina</title>
+        <meta charset="utf-8>">
+
+        <script type="text/javascript" src="js/main.js"></script>
+
+    </head>
+    <body>
+        <h1>Minha Página</h1>
+    </body>
+</html>
+
+Mas para isso é necessária a criação de outro arquivo aonde constará o arquivo a ser puxado dentro da tag <head></head>:
+- Ex: main.js
+Aonde constarão os comandos da tag <script></script>:
+- <script type="text/javascript" src="js/main.js"></script>
+	
